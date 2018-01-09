@@ -1,0 +1,14 @@
+
+
+shopIT
+----------
+
+
+ business components
+ ----------------------
+ 
+ 
+  1. PriceMatrix   : getPrice(item)
+  
+  2. Billing       : getTotalPrice(cart)
+ 

@@ -1,0 +1,87 @@
+
+
+How to implement abs & encap in java ?
+
+ --------------------------------------------------------------
+ 
+ ==> using access-specifiers & packages
+ ==> using class & interfaces
+ ==> using set & get methods
+ ==> using proper design-patterns   ( proven re-occurring OO solutions )
+ 
+ --------------------------------------------------------------
+ 
+ using access-specifiers & packages
+ 
+  proj
+  
+  	p1 
+  	
+  		- A.java ( target )
+  		- B.java extends A.java
+  		- C.java
+  
+   p2
+   
+       - D.java extends A.java
+       - E.java
+       
+       
+       	-------------------------------------------------------------
+         same-package          				    |	 other-package
+         ------------------------------------------------------------- 
+         same-class | sub-class | other-class    |   sub-class |  other-class
+         -------------------------------------------------------------------
+         
+private    Y             N            N                 N            N
+default    Y             Y            Y                 N            N   
+protected  Y             Y            Y                 Y            N
+public     Y             Y            Y                 Y            Y  
+
+-----------------------------------------------------------------------------  
+
+
+  e.g
+  
+  
+     objects
+     
+       --> dependent
+       --> dependency
+       
+       
+     e.g
+     
+       -> Car : move()
+       		
+       -> MRFWheel : rotate() 		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+         
+       
+       
+     		
+ 

@@ -1,0 +1,15 @@
+
+
+project
+-------------
+
+
+				  obj-module-1                      obj-module-2
+				  ---------------------------------------------------------
+				  
+  top-level       Interface
+  middle-level    Abstract-class
+  bottom-level    Implementation(class )
+  
+  
+  --------------------------------------------------------
